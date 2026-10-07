@@ -1,0 +1,10 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build:vercel",
+  "crons": [
+    {
+      "path": "/api/push/cleanup",
+      "schedule": "15 8 * * *"
+    }
+  ]
+}

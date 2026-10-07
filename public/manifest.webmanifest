@@ -1,0 +1,17 @@
+{
+  "name": "P-delivery | Suyai + Aura",
+  "short_name": "P-delivery",
+  "description": "Operación logística multimarca en Lima",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7f6",
+  "theme_color": "#006c49",
+  "icons": [
+    {
+      "src": "/brands/p-delivery.png",
+      "sizes": "640x640",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+const DISTANCE_FROM_RIMAC_KM: Record<string, number> = {
+  "Ate": 16.8,
+  "Barranco": 14.5,
+  "Breña": 5.8,
+  "Carabayllo": 18.5,
+  "Chorrillos": 18,
+  "Comas": 12.5,
+  "El Agustino": 8.5,
+  "Independencia": 7,
+  "Jesús María": 8.2,
+  "La Molina": 19,
+  "La Victoria": 8,
+  "Lince": 9.5,
+  "Los Olivos": 10,
+  "Lurín": 36,
+  "Magdalena del Mar": 11,
+  "Miraflores": 13,
+  "Pueblo Libre": 9,
+  "Puente Piedra": 22,
+  "Rímac": 2,
+  "San Borja": 13,
+  "San Isidro": 11,
+  "San Juan de Lurigancho": 10,
+  "San Juan de Miraflores": 19,
+  "San Luis": 11,
+  "San Martín de Porres": 8,
+  "San Miguel": 12,
+  "Santa Anita": 12,
+  "Santiago de Surco": 17,
+  "Surquillo": 13,
+  "Villa El Salvador": 27,
+  "Villa María del Triunfo": 23,
+  "Lima (Cercado de Lima)": 4,
+};
+
+export function getRimacDistance(district: string) {
+  return DISTANCE_FROM_RIMAC_KM[district] ?? 999;
+}
